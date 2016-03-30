@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-branch = '2-4-stable'
-gem 'spree', github: 'spree/spree', branch: branch
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: branch
+gem 'solidus', github: 'solidusio/solidus', branch: 'v1.1'
+gem 'solidus_auth_devise', github: 'solidusio/solidus_auth_devise'
 
 gemspec
