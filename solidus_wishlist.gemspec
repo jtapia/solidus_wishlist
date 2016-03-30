@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path  = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'solidus_core', '~> 1.1.0'
+  s.add_runtime_dependency 'solidus_core', '~> 1.2.0'
 
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker'
@@ -31,4 +31,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sass-rails', '~> 4.0.0'
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'pry-rails'
+  s.add_development_dependency 'sprockets', '2.11.0'
 end
