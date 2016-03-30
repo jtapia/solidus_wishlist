@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_wishlist'
+  s.name        = 'solidus_wishlist'
   s.version     = '2.2'
   s.summary     = 'Add wishlists to Spree'
   s.description = s.summary
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 
   s.author      = 'John Dyer'
   s.email       = 'jdyer@spreecommerce.com'
-  s.homepage    = 'https://github.com/spree-contrib/spree_wishlist'
+  s.homepage    = 'https://github.com/curcumalabs/solidus_wishlist'
   s.license     = 'BSD-3'
 
   s.files         = `git ls-files`.split("\n")
