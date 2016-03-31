@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_wishlist'
   s.version     = '2.2'
-  s.summary     = 'Add wishlists to Spree'
+  s.summary     = 'Add wishlists to Solidus'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
 
