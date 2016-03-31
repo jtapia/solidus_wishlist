@@ -20,7 +20,7 @@ it:
     private_wishlist: "Lista privata"
     private: "Privata"
     public_wishlist: "Lista pubblica"
-    publicoc: "Pubblica"
+    public: "Pubblica"
     remove_from_wishlist: "Rimuovi dalla lista"
     wishlist_actions: "Azioni"
     your_wishlist_is_empty: "La tua lista è vuota"
