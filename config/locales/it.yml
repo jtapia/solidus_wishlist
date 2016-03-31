@@ -17,6 +17,7 @@ it:
     move: "Sposta"
     move_to_another_wishlist: "Sposta in un'altra lista"
     my_wishlists: "Le mie liste"
+    wishlists: "Le mie liste"
     private_wishlist: "Lista privata"
     private: "Privata"
     public_wishlist: "Lista pubblica"
