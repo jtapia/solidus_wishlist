@@ -2,7 +2,7 @@
 
 <%= Spree.t(:take_a_look_at_my_wishlist) %>
 
-  * <%= @wishlist.name %>
+  * <%= @object.name %>
 
 <% unless mail.message.blank? -%>
   <%= mail.message %>
@@ -10,5 +10,5 @@
 
 <%= mail.sender_name %>
 
-<%= Spree.t(:click_link_to_view_wishlist, name: @wishlist.name) %>
-<%= wishlist_url(@wishlist) %>
+<%= Spree.t(:click_link_to_view_wishlist, name: @object.name) %>
+<%= wishlist_url(@object) %>
