@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_wishlist'
-  s.version     = '2.2'
+  s.version     = '2.2.1'
   s.summary     = 'Add wishlists to Solidus'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path  = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'solidus_core', '~> 1.2.0'
+  s.add_runtime_dependency 'solidus_core', '~> 2.0'
 
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker'
