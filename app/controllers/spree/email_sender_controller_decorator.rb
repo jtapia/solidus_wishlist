@@ -6,7 +6,7 @@ Spree::EmailSenderController.class_eval do
     @mail_to_friend.host = request.env['HTTP_HOST']
     respond_to do |format|
       format.html do
-        captcha_passed = !Spree::Captcha::Config[:use_captcha] || verify_recaptcha(private_key: Spree::Captcha::Config[:private_key])
+        captcha_passed = !Spree::Captcha::Config[:use_captcha] || verify_recaptcha(secret_key: Spree::Captcha::Config[:secret_key])
         if @mail_to_friend.valid? && captcha_passed
           flash[:notice] = Spree.t('email_to_friend.mail_sent_to', email: @mail_to_friend.recipients.join(', '))
 
