@@ -16,7 +16,9 @@ Gem::Specification.new do |s|
   s.require_path  = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'solidus_core', '~> 1.2.0'
+  solidus_version = ['>= 1.2.0', '< 3']
+  s.add_dependency 'solidus', solidus_version
+  s.add_dependency 'solidus_support'
 
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'ffaker'
